@@ -1,1 +1,143 @@
-
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Siurram Cup</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1e1e2e;
+            color: #ffffff;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            overflow: hidden;
+            background-image: url('tło.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .title-box {
+            display: inline-block;
+            padding: 15px 30px;
+            border: 3px solid #6272a4;
+            border-radius: 15px;
+            background-color: #3e3e4e;
+            color: #ffffff;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            box-shadow: 0px 4px 15px rgba(98, 114, 164, 0.7);
+            text-transform: uppercase;
+        }
+        .table-box {
+            display: inline-block;
+            padding: 20px;
+            border: 3px solid #6272a4;
+            border-radius: 15px;
+            background-color: #2e2e3e;
+            box-shadow: 0px 6px 18px rgba(98, 114, 164, 0.8);
+            width: 100%;
+            max-width: 60%;
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #2e2e3e;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 20px 15px;
+            border: 1px solid #444;
+            text-align: center;
+            font-size: 16px;
+        }
+        th {
+            background-color: #6272a4;
+            color: white;
+            font-size: 18px;
+        }
+        tr:nth-child(even) {
+            background-color: #3a3a4a;
+        }
+        tr:nth-child(odd) {
+            background-color: #333442;
+        }
+        tr:hover {
+            background-color: #1e1e2e; /* Hover color matches the page background */
+            transition: background-color 0.3s ease;
+        }
+        td {
+            color: #d1d1d1;
+        }
+    </style>
+</head>
+<body>
+    <div class="title-box">tabela Siurram cup</div>
+    <div class="table-box">
+        <table>
+            <thead>
+                <tr>
+                    <th>Drużyna</th>
+                    <th>Grajki</th>
+                    <th>Rozegrane mecze</th>
+                    <th>Wygrane</th>
+                    <th>Przegrane</th>
+                    <th>Bilans</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Team 1</td>
+                    <td>Raister, Koffaai</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Team 2</td>
+                    <td>Szczepix, J4siek103</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Team 3</td>
+                    <td>Arab, WojtiZ</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Team 4</td>
+                    <td>Emeryt, ransiak</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Team 5</td>
+                    <td>B4rto, Królik</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
